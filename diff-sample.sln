@@ -1,0 +1,66 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92016980-E7CD-46B6-A314-75782FB00483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4796B76B-9099-4B84-8E30-7FC4D69219ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample", "src\DiffSample\DiffSample.csproj", "{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Abstractions", "src\DiffSample.Abstractions\DiffSample.Abstractions.csproj", "{3C26257F-BBE6-48A3-ABCD-78429139E279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Services.Test", "test\DiffSample.Services.Test\DiffSample.Services.Test.csproj", "{FAF2DD4F-5FF8-408B-B203-797A203CEBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Services", "src\DiffSample.Services\DiffSample.Services.csproj", "{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Test", "test\DiffSample.Test\DiffSample.Test.csproj", "{D237E62F-C374-4DF5-A857-6A2793984F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Services.Integration.Test", "test\DiffSample.Services.Integration.Test\DiffSample.Services.Integration.Test.csproj", "{31FF1D67-0C1B-4D29-989B-CC804EDB74DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffSample.Integration.Test", "test\DiffSample.Integration.Test\DiffSample.Integration.Test.csproj", "{1634FDB3-62D0-47A9-B998-E9FE60A765BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35}.Release|x86.Build.0 = Release|Any CPU
+		{3C26257F-BBE6-48A3-ABCD-78429139E279}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C26257F-BBE6-48A3-ABCD-78429139E279}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C26257F-BBE6-48A3-ABCD-78429139E279}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C26257F-BBE6-48A3-ABCD-78429139E279}.Release|x86.Build.0 = Release|Any CPU
+		{FAF2DD4F-5FF8-408B-B203-797A203CEBD7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAF2DD4F-5FF8-408B-B203-797A203CEBD7}.Debug|x86.Build.0 = Debug|Any CPU
+		{FAF2DD4F-5FF8-408B-B203-797A203CEBD7}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAF2DD4F-5FF8-408B-B203-797A203CEBD7}.Release|x86.Build.0 = Release|Any CPU
+		{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C}.Debug|x86.Build.0 = Debug|Any CPU
+		{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C}.Release|x86.Build.0 = Release|Any CPU
+		{D237E62F-C374-4DF5-A857-6A2793984F69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D237E62F-C374-4DF5-A857-6A2793984F69}.Debug|x86.Build.0 = Debug|Any CPU
+		{D237E62F-C374-4DF5-A857-6A2793984F69}.Release|x86.ActiveCfg = Release|Any CPU
+		{D237E62F-C374-4DF5-A857-6A2793984F69}.Release|x86.Build.0 = Release|Any CPU
+		{31FF1D67-0C1B-4D29-989B-CC804EDB74DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{31FF1D67-0C1B-4D29-989B-CC804EDB74DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{31FF1D67-0C1B-4D29-989B-CC804EDB74DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{31FF1D67-0C1B-4D29-989B-CC804EDB74DE}.Release|x86.Build.0 = Release|Any CPU
+		{1634FDB3-62D0-47A9-B998-E9FE60A765BA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1634FDB3-62D0-47A9-B998-E9FE60A765BA}.Debug|x86.Build.0 = Debug|Any CPU
+		{1634FDB3-62D0-47A9-B998-E9FE60A765BA}.Release|x86.ActiveCfg = Release|Any CPU
+		{1634FDB3-62D0-47A9-B998-E9FE60A765BA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E50C2C1-C3C6-48C3-92D7-9D28AE89DA35} = {92016980-E7CD-46B6-A314-75782FB00483}
+		{3C26257F-BBE6-48A3-ABCD-78429139E279} = {92016980-E7CD-46B6-A314-75782FB00483}
+		{FAF2DD4F-5FF8-408B-B203-797A203CEBD7} = {4796B76B-9099-4B84-8E30-7FC4D69219ED}
+		{1FEFC57C-5F3B-44E5-B08B-416CA86FB17C} = {92016980-E7CD-46B6-A314-75782FB00483}
+		{D237E62F-C374-4DF5-A857-6A2793984F69} = {4796B76B-9099-4B84-8E30-7FC4D69219ED}
+		{31FF1D67-0C1B-4D29-989B-CC804EDB74DE} = {4796B76B-9099-4B84-8E30-7FC4D69219ED}
+		{1634FDB3-62D0-47A9-B998-E9FE60A765BA} = {4796B76B-9099-4B84-8E30-7FC4D69219ED}
+	EndGlobalSection
+EndGlobal
